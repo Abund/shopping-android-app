@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abun.shoprite1.adminHomePage"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headn"
+        android:textColor="@color/colorAccent1"
+        android:text="Dashboard"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headin"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:text="Customer section"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/addcust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add customer"/>
+
+        <Button
+            android:id="@+id/editcust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit or Delete "/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headi"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:text="Product section"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/addPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add products"/>
+
+        <Button
+            android:id="@+id/editPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit or Delete "/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/head"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:text="Employee section"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/addEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Employee"/>
+
+        <Button
+            android:id="@+id/editEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit or Delete "/>
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:text="Reports"/>
+
+    <Button
+        android:id="@+id/proRe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view products reports"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout1"
+        android:text="logout"/>
+
+</LinearLayout>

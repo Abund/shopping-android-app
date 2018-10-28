@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abun.shoprite1.Cart"
+    android:layout_marginTop="57dp"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cartRecycler_view"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/moreText" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cartRecycler_view"
+            android:layout_marginStart="18dp"
+            android:textColor="@android:color/black"
+            android:text="Total"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/showingTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_marginStart="22dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:text="" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/showingTotal"
+            android:layout_below="@+id/showingTotal"
+            android:layout_marginEnd="22dp"
+            android:layout_marginTop="21dp"
+            android:text="Check out" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ordered Products"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="section showing products that have been purchased"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/orderedProducts"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

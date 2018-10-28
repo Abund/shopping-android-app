@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abun.shoprite1.category"
+    android:layout_marginTop="57dp"
+    android:background="@color/white"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    >
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:inputType="textPersonName"
+        android:text="Categories"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/Beverages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText2"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:text="Beverages"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/Personal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Beverages"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:text="Personal Care"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/Households"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Personal"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:text="Households"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/Electronics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Households"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:text="Electronics"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/Groceries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Electronics"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:text="Groceries"
+        android:layout_marginBottom="4dp"/>
+</RelativeLayout>

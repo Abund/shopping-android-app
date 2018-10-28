@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abun.shoprite1.ProductCatergory">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topic"
+        android:textColor="@android:color/black"/>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_marginTop="31dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:horizontalSpacing="1dip"
+        android:gravity="center"
+        android:numColumns="3"
+        android:verticalSpacing="11dip"
+        android:stretchMode="spacingWidthUniform"
+        android:columnWidth="100dip">
+
+    </GridView>
+
+</RelativeLayout>

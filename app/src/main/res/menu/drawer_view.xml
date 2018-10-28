@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context = "com.example.abun.shoprite1.productPage"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<group android:checkableBehavior="single" >
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:textColor="@color/colorAccent"
+            android:title="Categories" />
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Cart and Wishlist" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_close_black_24dp"
+            android:title="Log out" />
+</group>
+</menu>
